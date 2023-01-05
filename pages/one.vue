@@ -1,8 +1,5 @@
 <template>
-  <div>
-    <Header />
-    <slot />
-  </div>
+  <div>one</div>
 </template>
 
 <script setup></script>
