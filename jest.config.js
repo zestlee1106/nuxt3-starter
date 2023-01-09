@@ -1,4 +1,5 @@
 module.exports = {
+  setupFiles: ["<rootDir>/jest.setup.js"],
   moduleFileExtensions: ["js", "json", "jsx", "ts", "tsx", "json"],
   preset: "ts-jest",
   transform: {
