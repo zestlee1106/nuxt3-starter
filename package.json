@@ -6,7 +6,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "test": "jest --watchAll"
+    "test": "jest --watchAll --maxWorkers=1"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.20.2",
