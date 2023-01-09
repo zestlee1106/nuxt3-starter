@@ -17,8 +17,6 @@
   </ul>
 </template>
 
-<script setup>
-console.log("test");
-</script>
+<script setup></script>
 
 <style lang="scss" scoped></style>

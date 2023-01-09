@@ -9,12 +9,6 @@
 <script>
 export default {
   setup() {
-    console.log(
-      "%c 🤩🤩🤩 영우의 로그 page: ",
-      "font-size: x-large; color: #bada55;",
-      ""
-    );
-
     return {};
   },
 };
