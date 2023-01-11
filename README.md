@@ -1,42 +1,41 @@
-# Nuxt 3 Minimal Starter
+# Nuxt3 + Jest starter
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+> Nuxt3 에 Jest 를 붙여 보는 프로젝트
 
-## Setup
+## 기술 스펙
 
-Make sure to install the dependencies:
+1. Nuxt3
+2. Node18
+3. Typescript
+4. Jest
+5. Pinia
+
+## 패키지 설치
 
 ```bash
-# yarn
 yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
 ```
 
-## Development Server
-
-Start the development server on http://localhost:3000
+## 개발 서버 실행
 
 ```bash
-npm run dev
+yarn dev
 ```
 
-## Production
-
-Build the application for production:
+## 빌드
 
 ```bash
-npm run build
+yarn build
 ```
 
-Locally preview production build:
+## 빌드 파일 미리보기
 
 ```bash
-npm run preview
+yarn preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## test 실행
+
+```bash
+yarn test
+```
