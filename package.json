@@ -31,5 +31,12 @@
   },
   "dependencies": {
     "@pinia/nuxt": "^0.4.6"
-  }
+  },
+  "description": "nuxt3+tailwind+jest",
+  "author": "LeeYoungWoo(https://zestlee.tistory.com/)",
+  "keywords": [
+    "nuxt3",
+    "tailwind",
+    "jest"
+  ]
 }
