@@ -15,11 +15,20 @@
 </template>
 
 <script setup lang="ts">
+type User = {
+  name: string;
+  age: Number;
+};
+
 const isDark = ref<Boolean>(true);
 
 const changeTheme = () => {
   isDark.value = !isDark.value;
 };
+
+const user = ref<User | null>(null);
+const { data } = await useCustomFetch<User>("/test");
+user.value = data.value;
 
 defineExpose({ changeTheme, isDark });
 </script>
