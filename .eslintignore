@@ -1,0 +1,6 @@
+.eslintrc
+.nuxtignore
+.gitignore
+*.json
+tailwind.config.js
+nuxt.config.ts
