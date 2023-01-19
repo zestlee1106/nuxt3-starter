@@ -1,4 +1,4 @@
-import { UseFetchOptions } from "nuxt/dist/app/composables";
+import type { UseFetchOptions } from 'nuxt/dist/app/composables'
 
 export default <T>(url: string, options?: UseFetchOptions<any, any, any>) => {
   return useFetch<T>(url, {
@@ -12,5 +12,5 @@ export default <T>(url: string, options?: UseFetchOptions<any, any, any>) => {
     onRequestError({ request, options, error }) {},
     onResponse({ request, response, options }) {},
     onResponseError({ request, response, options }) {},
-  });
-};
+  })
+}

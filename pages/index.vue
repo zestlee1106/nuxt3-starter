@@ -1,3 +1,11 @@
+<script>
+export default {
+  setup() {
+    return {}
+  },
+}
+</script>
+
 <template>
   <div class="flex justify-center items-center h-screen">
     <h1 class="text-3xl font-bold text-green-500">
@@ -5,13 +13,5 @@
     </h1>
   </div>
 </template>
-
-<script>
-export default {
-  setup() {
-    return {};
-  },
-};
-</script>
 
 <style lang="scss" scoped></style>
