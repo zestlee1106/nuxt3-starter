@@ -10,11 +10,11 @@ const changeTheme = () => {
   isDark.value = !isDark.value
 }
 
-const user = ref<User | null>(null)
-const { data } = await useCustomFetch<User>('/test')
-user.value = data.value
+// const user = ref<User | null>(null)
+// const { data } = await useCustomFetch<User>('/test')
+// user.value = data.value
 
-await defineExpose({ changeTheme, isDark })
+// await defineExpose({ changeTheme, isDark })
 </script>
 
 <template>
