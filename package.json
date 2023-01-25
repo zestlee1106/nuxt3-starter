@@ -14,11 +14,8 @@
     "lint-staged": "lint-staged"
   },
   "lint-staged": {
-    "src/**/*.{ts,vue}": [
-      "eslint --ext .ts,vue,js src/ --fix"
-    ],
-    "src/**": [
-      "prettier --check 'src/**/*.ts' 'src/**/*.js' 'src/**/*.vue'"
+    "*.{ts,js,vue}": [
+      "eslint ."
     ]
   },
   "devDependencies": {
