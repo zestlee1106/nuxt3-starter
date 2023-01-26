@@ -38,7 +38,7 @@
     "jest": "^29.3.1",
     "jest-environment-jsdom": "^29.3.1",
     "lint-staged": "^13.1.0",
-    "nuxt": "3.0.0",
+    "nuxt": "3.1.1",
     "postcss": "^8.4.20",
     "tailwindcss": "^3.2.4",
     "ts-jest": "^29.0.3",
@@ -46,7 +46,10 @@
     "vue-jest": "^3.0.7"
   },
   "dependencies": {
-    "@pinia/nuxt": "^0.4.6"
+    "@pinia/nuxt": "^0.4.6",
+    "@types/qs": "^6.9.7",
+    "pinia": "^2.0.29",
+    "qs": "^6.11.0"
   },
   "description": "nuxt3+tailwind+jest",
   "author": "LeeYoungWoo(https://zestlee.tistory.com/)",
