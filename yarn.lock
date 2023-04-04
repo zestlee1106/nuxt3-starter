@@ -10094,10 +10094,10 @@ wcwidth@^1.0.1:
   dependencies:
     defaults "^1.0.3"
 
-web-component-ywlee@^0.0.7:
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/web-component-ywlee/-/web-component-ywlee-0.0.7.tgz#f1d96fd11f31584b2b1d0607be27224dc73b72a8"
-  integrity sha512-4fwjMK8q1a+5EIACMXRikRVSOADiy3cK7ws/tpsls8YCO/xIQFWCW7HtAkggaF2LmZffXvtf5nHJ/scmVZHh2Q==
+web-component-ywlee@^0.0.15:
+  version "0.0.15"
+  resolved "https://registry.yarnpkg.com/web-component-ywlee/-/web-component-ywlee-0.0.15.tgz#9075c20f41afc910273f3a0c800d33d42318a7a3"
+  integrity sha512-XsA4FrcZDCQ58JBX/9MuAnfuYNJoa98NAyBixXF4rH6DbFE8v3UeCo81tutj3irb0nNq1cLsICwiHTA1R9FzHQ==
   dependencies:
     lit "^2.4.0"
 
