@@ -1,3 +1,3 @@
 export default defineNuxtPlugin(async (nuxtApp) => {
-  console.log('지금 뭐하는')
+  console.log('在項目啟動時進行 cookies 紀錄的設置')
 })

@@ -1,9 +1,9 @@
 {
   // https://nuxt.com/docs/guide/concepts/typescript
-  "extends": "./.nuxt/tsconfig.json",
+  "extends": "./.nuxt/tsconfig.json", // 配置繼承文件位置
   "compilerOptions": {
-    "strict": true,
-    "skipLibCheck": true, // 외부 d.ts 파일 검사 생략
-    "types": ["@pinia/nuxt", "jest"]
+    "strict": true, // ts 的嚴格模式
+    "skipLibCheck": true, // 代表跳過外部聲明文件 .d.ts
+    "types": ["@pinia/nuxt", "jest"] // 這邊引入外部套件的型別設置文件
   }
 }

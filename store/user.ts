@@ -27,7 +27,7 @@ export const useUserStore = defineStore({
       const { username, password } = payload
       const { data } = await auth.postLogin(username, password)
       console.log(
-        '%c 🤩🤩🤩 영우의 로그 data: ',
+        '%c 🤩🤩🤩 user log data: ',
         'font-size: x-large; color: #bada55;',
         '',
         data.value

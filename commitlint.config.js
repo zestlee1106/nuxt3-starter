@@ -1,14 +1,15 @@
+// 此文件是用來規範 commit 時的內容訊息
 module.exports = {
-  rules: {
-    'required-issue-number': [2, 'always'], // 0:off, 1:warning, 2:error
+  rules: { // 規則是否檢核情況
+    'required-issue-number': [0, 'always'], // 0:off, 1:warning, 2:error
   },
-  plugins: [
+  plugins: [ // 導入規則處
     {
-      rules: {
+      rules: { // 自訂規則的寫法
         'required-issue-number': ({ header: commitMsg }) => {
           const regCommitSubject = /\[.*?\]/
-          if (regCommitSubject.test(commitMsg)) return [true, '커밋 성공!']
-          else return [false, '[] 를 포함해서 컨벤션을 맞춰야 합니다.']
+          if (regCommitSubject.test(commitMsg)) return [true, 'commit success!']
+          else return [false, 'commit 訊息提交應涵蓋 []']
         },
       },
     },

@@ -1,6 +1,6 @@
 {
-  "extends": "@antfu",
-  "rules": {
+  "extends": "@antfu", // 導入 Anthony Fu 大老的 eslint 設定 ( 若想置換 airbnb 或 standard 也是自這邊導入 )
+  "rules": { // 額外的設定規則
     "no-console": 0,
     "no-unused-vars": 0,
     "no-alert": 0,

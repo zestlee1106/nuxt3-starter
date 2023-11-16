@@ -2,13 +2,13 @@ import { RouterLinkStub, config } from '@vue/test-utils'
 import * as vue from 'vue'
 import * as pinia from 'pinia'
 
-config.global.stubs.NuxtLink = RouterLinkStub
+config.global.stubs.NuxtLink = RouterLinkStub // 這行將全局的 NuxtLink 替換成測試組件 stub
 
 interface IGlobal {
   [key: string]: any
 }
 
-// auto import 해 주는 것들을 global 로 주입시켜버린다 (Jest 에서는 하나하나 넣어줘야 하기 때문)
+// auto import 全局注入 Vue, Pinia 的內容 ( 因為在 Jest 中需要逐個添加 ) 以方便後續測試的取用
 for (const key of Object.keys(vue))
   (global as IGlobal)[key] = (vue as IGlobal)[key]
 for (const key of Object.keys(pinia))

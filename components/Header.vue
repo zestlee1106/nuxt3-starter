@@ -26,7 +26,7 @@ const changeTheme = () => {
       <NuxtLink class="text-blue-500 hover:text-blue-800" to="/two" data-testid="home">
         two
       </NuxtLink>
-      <button data-test="changeThemeButton" @click="changeTheme()">테마바꾸기</button>
+      <button data-test="changeThemeButton" @click="changeTheme()">changeTheme</button>
     </li>
   </ul>
 </template>
